@@ -1,1 +1,37 @@
-
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Game Wereld</h1>
+        <nav>
+            <ul id="category-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#populaire-games">Populaire Games</a></li>
+                <li><a href="#genres">Genres</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welkom bij Game Wereld</h2>
+        <p>Ontdek de populairste games en verschillende genres!</p>
+    </section>
+    
+    <section id="populaire-games">
+        <h2>Populaire Games</h2>
+        <div class="game-slider">
+            <button class="prev" onclick="scrollGames(-1)">&#10094;</button>
+            <div class="games" id="game-list">
+                <div class="game">Game 1</div>
+                <div class="game">Game 2</div>
+                <div class="game">Game 3</div>
+            </div>
+            <button class="next" onclick="scrollGames(1)">&#10095;</button>
+        </div>
+    </section>
+    
