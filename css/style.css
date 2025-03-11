@@ -51,10 +51,9 @@ section {
 .genre-list {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scroll-behavior: smooth;
+    gap: 40px; /* Verhoogde ruimte tussen de knoppen */
+    flex-wrap: wrap;
+    padding: 20px;
 }
 .genre {
     background-color: #444;
@@ -71,4 +70,3 @@ button {
     font-size: 20px;
     border-radius: 5px;
 }
-    
